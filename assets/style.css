@@ -1,0 +1,36 @@
+body{
+  background-color:#c6b675;
+}
+
+.step {
+	/*float:left;*/
+  background: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+	border: 1px solid #fff;
+	cursor:pointer;
+}
+
+.tube {
+  /*float:left;*/
+  width: 2px;
+  height: 50px;
+  background: #aeaeae;
+  margin-left: 6px;
+  background: linear-gradient(to bottom, #ddd 50%, #fff 50%);
+  background-size: 100% 200%;
+  background-position: top center;
+  transition: all 1s ease;
+}
+
+.active{
+  background-color: #ccc;
+  border: 8px solid #FFF;
+  border-radius: 50%;
+  box-shadow: 0 0 2px #888;
+  height: 7px;
+  width: 7px;
+  margin-left: -5px;
+  transition-delay: 1s;
+}
